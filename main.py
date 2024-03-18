@@ -33,7 +33,7 @@ def download_image(url, filename):
 st.set_page_config(page_title="AI Image Generator", page_icon="🤖", layout="centered")
 
 
-st.image("venv/images/full.jpg", use_column_width=True)
+st.image("images/full.jpg", use_column_width=True)
 st.title("AI Image Generator")
 description = st.text_area("Prompt")
 
